@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text=""
             android:ems="10"
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toTopOf="parent"
@@ -52,12 +52,59 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text=""
             android:ems="10"
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/jornada_edit_text"
             app:layout_constraintStart_toStartOf="@+id/jornada_edit_text"
     />
+    <TextView
+            android:id="@+id/hora_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora"
+            app:layout_constraintTop_toBottomOf="@+id/rama_text_view"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:padding="8dp"/>
+
+    <EditText
+            android:id="@+id/hora_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/rama_edit_text"
+            app:layout_constraintStart_toStartOf="@+id/jornada_edit_text"
+    />
+    <TextView
+            android:id="@+id/campo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campo"
+            app:layout_constraintTop_toBottomOf="@+id/hora_text_view"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:padding="8dp"/>
+
+    <EditText
+            android:id="@+id/campo_edit_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/hora_edit_text"
+            app:layout_constraintStart_toStartOf="@+id/jornada_edit_text"
+    />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
