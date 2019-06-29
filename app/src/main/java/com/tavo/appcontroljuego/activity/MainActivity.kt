@@ -1,7 +1,8 @@
-package com.tavo.appcontroljuego
+package com.tavo.appcontroljuego.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.tavo.appcontroljuego.R
 
 class MainActivity : AppCompatActivity() {
 
